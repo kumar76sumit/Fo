@@ -1,0 +1,132 @@
+@import url(‘https://fonts.googleapis.com/css?family=Poppins’);
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+body {
+  background-color: #1f1f1f;
+  padding-inline: 25px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+nav > h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+nav > input {
+  width: 597px;
+  margin-left: 25px;
+  background-color: #262626;
+  border: none;
+  height: 53px;
+  border-radius: 15px;
+  padding: 20px;
+}
+nav > div {
+  display: flex;
+  width: 434px;
+  justify-content: space-between;
+}
+nav > div > button {
+  background-color: #262626;
+  border: none;
+  border-radius: 15px;
+  height: 53px;
+  width: 131px;
+}
+#hero {
+  /* border: 1px solid white; */
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #262626;
+}
+#hero > div {
+  /* border: 1px solid green; */
+  width: 1370px;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+table {
+  width: fit-content;
+  /* border: 1px solid white; */
+}
+#hero > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  justify-content: space-between;
+  padding: 20px;
+  height: 400px;
+}
+#hero > div > button {
+  position: absolute;
+  width: 260px;
+  height: 107px;
+  background-color: #fecb03;
+  border-radius: 100px;
+  border: none;
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  bottom: 10px;
+  right: 10px;
+}
+#hero>div>svg{
+  position: absolute;
+  bottom: 140px;
+  right:7px;
+}
+#categories {
+  display: grid;
+  grid-template-areas: "a b c" "d e f";
+  gap: 70px;
+  justify-content: space-around;
+}
+#categories > div {
+  width: 346px;
+  height: 391px;
+  border: 3px solid #262626;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  position: relative;
+}
+#categories > div > button {
+  position: absolute;
+  background-color: #fecb03;
+  border-radius: 100px;
+  border: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  width: 169.44px;
+  height: 58px;
+  bottom: 20px;
+  right: 20px;
+}
+footer {
+  display: flex;
+  /* border: 1px solid white; */
+  background-color: #262626;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 25px;
+  margin-top:70px;
+}
+footer > div {
+  width: 600px;
+  /* border: 1px solid pink; */
+}
+footer > table {
+  margin-left: 80px;
+}
+.table-padding {
+  padding: 10px;
+}
